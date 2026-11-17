@@ -1,3 +1,6 @@
+> ▶ **Play in the browser:** https://dandysuper.github.io/kage-ninja-of-the-wind/play/  
+> 📜 How it was built: [TRANSCRIPTS.md](TRANSCRIPTS.md)
+
 # KAGE — Ninja of the Wind
 
 A 2.5D open-world ninja RPG for the **TIC-80** fantasy console: explore a
