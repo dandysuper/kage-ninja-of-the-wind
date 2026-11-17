@@ -1,0 +1,29 @@
+-- title:   KAGE - Ninja of the Wind
+-- author:  dandimo
+-- desc:    2.5D open-world ninja survival RPG. Explore feudal Japan, jump, climb, glide, craft, cook, and reclaim the Three Sacred Treasures.
+-- site:    https://tic80.com
+-- license: MIT License
+-- version: 2.0
+-- script:  lua
+--
+-- ============================================================================
+--  KAGE - Ninja of the Wind  (TIC-80 Pro 1.3 / Lua 5.3)
+--
+--  A Don't Starve x Breath of the Wild style open world, rendered as a real
+--  2.5D scene: a rotatable isometric camera, z-buffered textured triangles
+--  (ttri) for terrain cliffs and 3D buildings, billboarded sprites, shadows,
+--  day/night with DS-style darkness, and a HUD on VRAM bank 1.
+--
+--  CONTROLS (keyboard)
+--    Arrows ......... move            SHIFT / C ...... sprint (stamina)
+--    X .............. jump / hold to glide (kite)  / climb-leap
+--    Z .............. katana (combo) / chop / mine / plunge in mid-air
+--    A .............. interact: talk, pick up, open, cook, rest
+--    S .............. throw shuriken
+--    Q / E .......... rotate camera
+--    TAB or I ....... inventory + crafting      M ...... map
+--    J .............. quest journal             1-0 .... use hotbar slot
+--
+--  Source: tools/build.sh concatenates src/*.lua (lexical order) into
+--  kage.lua. See HANDOFF.md for the architecture and the test harness.
+-- ============================================================================

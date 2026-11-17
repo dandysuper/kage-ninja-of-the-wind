@@ -1,0 +1,32 @@
+-- title:   KAGE - Ninja of the Wind
+-- author:  Sixth
+-- desc:    2.5D open-world ninja platformer in a fantasy anime Japan
+-- site:    https://tic80.com
+-- license: MIT
+-- version: 1.0
+-- script:  lua
+--
+-- ============================================================================
+--  KAGE - Ninja of the Wind  (TIC-80 Pro 1.3 / Lua)
+--
+--  A 2.5D side-scrolling action-platformer set in a fantasy anime Japan.
+--  Open world built from 8 regions + sky islands + a deep underworld,
+--  drawn with layered parallax depth, pseudo-3D terrain blocks, depth-sorted
+--  entities and drop shadows.
+--
+--  CONTROLS
+--    Left/Right .......... run
+--    Down ................ crouch / slide
+--    Z (or A) ............ jump  (hold for higher, tap again = double jump)
+--    X (or S) ............ katana slash  (air slash while airborne)
+--    Up + X .............. throw kunai
+--    Down + Z (in air) ... air dash (once per airtime)
+--    Up (at shrine) ...... rest / save / fast travel
+--
+--  SOURCE LAYOUT
+--    This cart is generated: tools/build.sh concatenates src/*.lua in
+--    lexical order into ../kage.lua (the playable cartridge).
+--    Every module below is a self-contained section. Because the modules are
+--    concatenated into ONE Lua chunk, chunk-level locals declared in
+--    01_core.lua are visible to every later module.
+-- ============================================================================
